@@ -336,4 +336,5 @@ module Shapefile
     end
 
     include("geo_interface.jl")
+    include("shx.jl")
 end # module
