@@ -1,6 +1,7 @@
 module Shapefile
 
     import GeoInterface
+    using DBFTables, DataFrames
 
     mutable struct Rect{T}
         top::T
@@ -337,4 +338,5 @@ module Shapefile
 
     include("geo_interface.jl")
     include("shx.jl")
+    include("parsefile.jl")
 end # module
